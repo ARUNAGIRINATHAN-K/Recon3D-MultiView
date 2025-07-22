@@ -1,0 +1,15 @@
+{
+  "name": "Playstore Review Analysis",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "forwardPorts": [8501],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
