@@ -1,9 +1,0 @@
-pandas
-numpy
-nltk
-vaderSentiment
-scikit-learn
-matplotlib
-seaborn
-streamlit
-gensim
